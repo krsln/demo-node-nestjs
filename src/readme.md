@@ -6,4 +6,22 @@
 npx @nestjs/cli new . --skip-git
 
 npm run start:dev
+
+# update packages
+sudo npm install -g @nestjs/cli
+sudo npm install -g npm-check-updates
+
+npx npm-check-updates -u
+npm install
+```
+
+## Dependencies
+
+```shell
+# Install Config Module
+npm install @nestjs/config
+
+# Install Swagger Dependencies
+npm install @nestjs/swagger swagger-ui-express
+
 ```
