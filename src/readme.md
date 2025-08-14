@@ -24,4 +24,11 @@ npm install @nestjs/config
 # Install Swagger Dependencies
 npm install @nestjs/swagger swagger-ui-express
 
+# Healthchecks (Terminus)
+npm install @nestjs/terminus
+npm install @nestjs/axios
+
+nest g resource modules/health --no-spec 
+
+
 ```

@@ -41,7 +41,7 @@ function initSwagger(app: INestApplication<any>, configService: ConfigService<un
         }
     };
 
-    const swaggerPath = configService.get<string>('SWAGGER_PATH') || 'docs';
+    const swaggerPath = configService.get<string>('SWAGGER_PATH') || 'api-docs';
     SwaggerModule.setup(swaggerPath, app, document, options);
 }
 
