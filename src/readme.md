@@ -30,5 +30,13 @@ npm install @nestjs/axios
 
 nest g resource modules/health --no-spec 
 
+```
+
+## Dockerize
+
+```shell
+# ✓ 2025.08.14
+docker build -t demo-node-nestjs .
+docker run -d --name demo-node-nestjs -e PORT=4000 -p 4000:4000 demo-node-nestjs
 
 ```
