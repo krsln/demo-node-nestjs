@@ -1,4 +1,6 @@
 # Nestjs specific
+/.idea
+
 /dist
 /node_modules
 /build
